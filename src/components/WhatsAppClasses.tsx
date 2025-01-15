@@ -96,7 +96,7 @@ const WhatsAppClasses = () => {
         <div className="text-center mb-16 bg-white/95 p-8 rounded-2xl shadow-xl">
           <div className="inline-flex items-center space-x-2 bg-blue-500/10 border border-blue-500/20 rounded-full px-4 py-2 mb-6">
             <Globe className="h-5 w-5 text-blue-600" />
-            <span className="text-blue-600 font-semibold">WhatsApp Learning Solutions</span>
+            <span className="text-blue-600 font-semibold">WhatsApp Learning Solution</span>
           </div>
           
           <h2 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
