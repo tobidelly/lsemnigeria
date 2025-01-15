@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { GraduationCap, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import logo from './assets/logo.png';
 
 const Footer = () => {
   const scrollToSection = (id: string) => {
@@ -17,8 +18,7 @@ const Footer = () => {
           {/* About */}
           <div>
             <div className="flex items-center mb-4">
-              <GraduationCap className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold text-white">LSEM</span>
+                <span className="text-xl font-bold text-white">Lagos School of Export Management</span>
             </div>
             <p className="text-gray-400 mb-4">
               Nigeria's premier institution for export management and international trade education.
