@@ -3,6 +3,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Menu, X, GraduationCap, BookOpen, Phone, Newspaper, Users, UserPlus, MessageCircle } from 'lucide-react';
 import { useAuth } from './auth/AuthContext';
 import LoginModal from './auth/LoginModal';
+import logo from './assets/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,8 +53,8 @@ const Navbar = () => {
           <div className="flex justify-between h-16">
             <div className="flex-shrink-0 flex items-center">
               <Link to="/" className="flex items-center">
-                <GraduationCap className="h-8 w-8 text-blue-600" />
-                <span className="ml-2 text-xl font-bold text-gray-800">LSEM</span>
+                <img src={logo} alt="Logo" className="h-8 w-auto" />
+                <span className="ml-2 text-xl font-bold text-gray-900">LSEM</span>
               </Link>
             </div>
 
